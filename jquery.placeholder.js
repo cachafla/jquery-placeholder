@@ -236,6 +236,7 @@
 
                     $replacement
                         .removeAttr('name')
+                        .removeAttr('data-reactid')
                         .data({
                             'placeholder-enabled': true,
                             'placeholder-password': $input,
